@@ -2,9 +2,8 @@
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: '/sprintboard/',
+  base: process.env.GITHUB_ACTIONS ? '/sprintboard/' : '/',
   plugins: [react()],
   
 })
