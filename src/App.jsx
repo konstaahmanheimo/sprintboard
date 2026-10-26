@@ -140,8 +140,7 @@ useEffect(() => {
   type={notification?.type}
   onClose={() => setNotification(null)}
 />
-        <h1>Sprintboard</h1>
-        <p>Sprint 01 · React Fundamentals</p>
+        <h1>Sprintboard</h1>   
       </header>
 
       <section className="progress-section">
